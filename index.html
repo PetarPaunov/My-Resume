@@ -1,27 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Peter's Resume</title>
 
-    <link rel="stylesheet" href="./styles/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script src="./scripts/index.js"></script>
+  </head>
+  <body>
     <header class="header">
+      <img src="./images/logo.png" alt="" class="logo" />
 
-        <img src="./images/logo.png" alt="" class="logo">
-
-        <nav class="nav">
-            <ul class="nav-list">
-                <li class="nav-item"><a href="" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="" class="nav-link">Skills</a></li>
-                <li class="nav-item"><a href="" class="nav-link">Experiance</a></li>
-                <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
-            </ul>
-        </nav>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="" class="nav-link">Experiance</a></li>
+          <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
     </header>
-</body>
+
+    <main class="main">
+      <section class="intro">
+        <div class="info">
+          <div class="who">
+            <p class="greet">Hello I'm</p>
+            <h1 class="name">Peter Paunov</h1>
+            <p class="title">Software Developer</p>
+          </div>
+
+          <div class="contacts">
+            <p><i class="fa-solid fa-envelope"></i> peter.paunov20@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> +359 89 444 9230</p>
+            <p><i class="fa-sharp fa-solid fa-location-dot"></i> Plovdiv, Bulgaria, bul.Peshtersko Shose 133</p>
+          </div>
+
+          <div class="social-media">
+            <a class="media" href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a class="media" href=""><i class="fa-brands fa-instagram"></i></a>
+            <a class="media" href=""><i class="fa-brands fa-github"></i></a>
+            <a class="media" href=""><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="img"></div>
+      </section>
+    </main>
+  </body>
 </html>
