@@ -14,8 +14,8 @@
 
       <nav class="nav">
         <ul class="nav-list">
-          <li class="nav-item"><a href="" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
           <li class="nav-item"><a href="" class="nav-link">Skills</a></li>
           <li class="nav-item"><a href="" class="nav-link">Experiance</a></li>
           <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
@@ -24,7 +24,7 @@
     </header>
 
     <main class="main">
-      <section class="intro">
+      <section class="intro" id="home">
         <div class="info">
           <div class="who">
             <p class="greet">Hello I'm</p>
@@ -35,17 +35,51 @@
           <div class="contacts">
             <p><i class="fa-solid fa-envelope"></i> peter.paunov20@gmail.com</p>
             <p><i class="fa-solid fa-phone"></i> +359 89 444 9230</p>
-            <p><i class="fa-sharp fa-solid fa-location-dot"></i> Plovdiv, Bulgaria, bul.Peshtersko Shose 133</p>
+            <p>
+              <i class="fa-sharp fa-solid fa-location-dot"></i> Plovdiv,
+              Bulgaria, bul.Peshtersko Shose 133
+            </p>
           </div>
 
           <div class="social-media">
             <a class="media" href=""><i class="fa-brands fa-facebook-f"></i></a>
             <a class="media" href=""><i class="fa-brands fa-instagram"></i></a>
             <a class="media" href=""><i class="fa-brands fa-github"></i></a>
-            <a class="media" href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            <a class="media" href=""
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
           </div>
         </div>
-          <img class="img" src="./images/my-image.png" alt="">
+        <img class="img" src="./images/my-image.png" alt="" />
+      </section>
+
+      <section class="about" id="about">
+        <img class="img" src="./images/ab-img.png" alt="" />
+
+        <div class="content">
+          <h2 class="me">About Me</h2>
+          <p class="info">
+            I am enthusiastic problem solver, highly motivated to develop and
+            progress. Thorough and precise, with a keen interest in technology,
+            web applications and user experience.
+          </p>
+          <h3 class="tech">Technologies</h3>
+
+          <div class="lenguages">
+            <p class="lenguage">C#</p>
+            <p class="lenguage">.NET</p>
+            <p class="lenguage">Entity Framework Core</p>
+            <p class="lenguage">ASP.NET Core</p>
+            <p class="lenguage">MSSQL</p>
+            <p class="lenguage">JavaScript</p>
+            <p class="lenguage">HTML</p>
+            <p class="lenguage">CSS</p>
+          </div>
+
+          <a href="./files/MyCV.pdf" download="Peter's CV" class="cv-btn"
+            >Download CV <i class="fa-solid fa-download"></i
+          ></a>
+        </div>
       </section>
     </main>
 
