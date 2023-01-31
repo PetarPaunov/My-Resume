@@ -61,13 +61,13 @@ html{
 }
 
 .main{
-    padding-top: 9rem;
+    padding-top: 7rem;
 }
 
 .main .intro{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 12em;
+    margin-bottom: 10em;
 }
 
 .main .intro .img{
@@ -137,7 +137,8 @@ html{
 .main .about{
     display: flex;
     justify-content: space-between;
-    gap: 4rem;
+    gap: 2rem;
+    margin-bottom: 15em;
 }
 
 .main .about .img{
@@ -179,4 +180,50 @@ html{
 
 .main .about .content .lenguages .lenguage:last-child{
     margin-bottom: 3rem;
+}
+
+.main .experiance{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    color: var(--clr-primary-white);
+    gap: 3rem;
+}
+
+.main .experiance .heading{
+    font-size: 30px;
+    margin-bottom: 2rem;
+}
+
+.main .experiance .experiance-info:not(:last-child){
+    margin-bottom: 1.5rem;
+}
+
+.main .experiance .experiance-info{
+    background-color: var(--clr-secondary-black);
+    box-shadow: 0px 0px 18px 9px rgba(0,0,0,0.75);
+    padding: 20px;
+}
+
+.main .experiance .experiance-info .title,
+.main .experiance .experiance-info .year{
+    color: var(--clr-primary-green);
+}
+
+.main .experiance .experiance-info .where,
+.main .experiance .experiance-info .year{
+    margin-bottom: 0.5rem;
+}
+
+.main .experiance .experiance-info .tasks{
+    margin: 0px;
+}
+
+.main .experiance .experiance-info .tasks .task::marker{
+    font-size: 1.5rem;
+    color: var(--clr-primary-green);
+}
+
+.main .experiance .experiance-info .tasks .task:not(:last-child){
+    margin-bottom: 0.3rem;
 }
