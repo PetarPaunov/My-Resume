@@ -2,6 +2,7 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css');
 @import url('./reset.css');
 @import url('./button.css');
+@import url('./modal.css');
 
 :root{
     --clr-main-black: #100e17;
@@ -195,6 +196,7 @@ html{
     justify-content: center;
     color: var(--clr-primary-white);
     gap: 3rem;
+    margin-bottom: 10em;
 }
 
 .main .experiance .heading{
@@ -233,4 +235,41 @@ html{
 
 .main .experiance .experiance-info .tasks .task:not(:last-child){
     margin-bottom: 0.3rem;
+}
+
+.main .certificates{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.main .certificates .certificate{
+    width: 400px;
+    text-align: center;
+    color: var(--clr-primary-white);
+    background-color: var(--clr-secondary-black);
+    box-shadow: 0px 0px 18px 9px rgba(0,0,0,0.75);
+    border-radius: 10px;
+}
+
+.main .certificates .certificate .title{
+    margin-bottom: 1rem;
+    color: var(--clr-primary-green);
+}
+
+.main .certificates .certificate .link{
+    display: inline-block;
+    text-decoration: none;
+    color: var(--clr-primary-white);
+    font-weight: bold;
+    border: 1px solid var(--clr-primary-green);
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.main .certificates .certificate .link:hover{
+    background-color: var(--clr-primary-green);
 }
