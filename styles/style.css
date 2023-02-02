@@ -237,14 +237,21 @@ html{
     margin-bottom: 0.3rem;
 }
 
-.main .certificates{
+.main .certificates .head-title{
+    text-align: center;
+    color: var(--clr-primary-white);
+    margin-bottom: 2.5rem;
+    font-size: 30px;
+}
+
+.main .certificates .container{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
 }
 
 .main .certificates .certificate{
-    width: 400px;
+    width: 270px;
     text-align: center;
     color: var(--clr-primary-white);
     background-color: var(--clr-secondary-black);
