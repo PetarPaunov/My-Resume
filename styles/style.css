@@ -146,7 +146,7 @@ html{
     display: flex;
     justify-content: space-between;
     gap: 2rem;
-    margin-bottom: 15em;
+    margin-bottom: 7em;
 }
 
 .main .about .img{
@@ -189,6 +189,37 @@ html{
 .main .about .content .lenguages .lenguage:last-child{
     margin-bottom: 3rem;
 }
+
+.main .skills{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12em;
+    color: var(--clr-primary-white);
+    gap: 3rem;
+}
+
+.main .skills .technical-skills .title{
+    font-size: 30px;
+    margin-bottom: 2rem;
+}
+
+.main .skills .technical-skills .progress{
+    width: 100%;
+    accent-color: var(--clr-primary-green);
+}
+
+.main .skills .technical-skills .info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .skills .technical-skills .info .lenguage{
+    font-weight: bold;
+    color: var(--clr-primary-white);
+}
+
 
 .main .experiance{
     display: grid;
