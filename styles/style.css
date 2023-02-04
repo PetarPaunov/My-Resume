@@ -280,6 +280,7 @@ html{
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
+    margin-bottom: 13em;
 }
 
 .main .certificates .certificate{
@@ -359,5 +360,46 @@ html{
 .main .projects .container .proj .bottom .dec{
     text-align: left;
     margin-bottom: 1.5rem;
+}
+
+.main .contact .title{
+    text-align: center;
+    color: var(--clr-primary-white);
+    margin-bottom: 2.5rem;
+    font-size: 30px;
+}
+
+.main .contact .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--clr-primary-white);
+    text-align: center;
+}
+
+.main .contact .content .info{
+    width: 350px;
+    background-color: var(--clr-secondary-black);
+    box-shadow: 0px 0px 18px 9px rgba(0,0,0,0.75);
+    padding: 15px;
+}
+
+.main .contact .content .info .emote{
+    font-size: 20px;
+    display: inline-block;
+    margin: 2rem 0;
+    border: 1px solid var(--clr-primary-green);
+    padding: 2.5rem;
+    border-radius: 100%;
+}
+
+.main .contact .content .info .where .name{
+    font-size: 25px;
+    margin-bottom: 0.5rem;
+}
+
+.main .contact .content .info .where .p{
+    font-size: 13px ;
+    font-weight: bold;
 }
 
