@@ -92,6 +92,10 @@ html{
     border-bottom: 4px solid var(--clr-primary-green);
 }
 
+.header .nav .nav-list:last-child{
+    margin-right: 10px;
+}
+
 .main{
     padding-top: 7rem;
 }
