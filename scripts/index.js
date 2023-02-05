@@ -20,3 +20,17 @@ document.querySelectorAll('.certificates .certificate .image .img').forEach(imag
 document.querySelector('.popup-image span').onclick = () => {
   document.querySelector('.main .certificates .certificate .popup-image').style.display = 'none';
 }
+
+const toggleButton = document.getElementsByClassName("toggle-button")[0];
+const navLinks = document.querySelector('.header .nav .nav-list');
+
+toggleButton.addEventListener('click', (e) => {
+  e.preventDefault();
+  navLinks.classList.toggle('active');
+})
+
+const navItems = document.querySelectorAll('.header .nav .nav-list .nav-item a');
+
+navItems.forEach(x => x.addEventListener('click', () => {
+  navLinks.classList.toggle('active');
+}));
