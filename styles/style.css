@@ -362,6 +362,10 @@ html{
     margin-bottom: 1.5rem;
 }
 
+.main .contact{
+    margin-bottom: 5em;
+}
+
 .main .contact .title{
     text-align: center;
     color: var(--clr-primary-white);
@@ -401,5 +405,17 @@ html{
 .main .contact .content .info .where .p{
     font-size: 13px ;
     font-weight: bold;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    color: var(--clr-primary-white);
+    width: 100%;
+}
+
+.footer .media a{
+    color: var(--clr-primary-white);
+    padding-left: 1rem;
 }
 
